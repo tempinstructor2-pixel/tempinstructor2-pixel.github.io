@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Ming Chan — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a class="nav-logo" href="index.html">Ming<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"         class="nav-link">Home</a></li>
+      <li><a href="#education"    class="nav-link">Education</a></li>
+      <li><a href="#experience"   class="nav-link">Experience</a></li>
+      <li><a href="#achievements" class="nav-link">Awards</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="mailto:abc@gmail.com" class="icon-btn" title="Email Me">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+      </a>
+      <a href="https://github.com/tempinstructor2-pixel" target="_blank" class="icon-btn" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+          0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466
+          -.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832
+          .092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688
+          -.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1
+          2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595
+          1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012
+          2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+        </svg>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main class="page">
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div>
+        <p class="hero-greeting fade-up">&#x1F44B; Hello, I'm</p>
+        <h1 class="hero-name fade-up">Ming<br/><span>Chan</span></h1>
+        <p class="hero-tagline fade-up"><span id="typed-text"></span><span class="cursor"></span></p>
+        <p class="hero-desc fade-up">
+          A passionate Form 5 student at Greenview Secondary School in Hong Kong.
+          I love exploring technology, sports, and creative challenges.
+          Always eager to learn, build, and grow with every new experience.
+        </p>
+        <div class="hero-cta fade-up">
+          <a href="experience.html" class="btn-green">View My Journey</a>
+          <a href="contact.html"    class="btn-outline">Get In Touch</a>
+        </div>
+        <div class="stats fade-up">
+          <div class="stat"><span class="stat-num" data-target="5">0</span><div class="stat-label">Competitions</div></div>
+          <div class="stat"><span class="stat-num" data-target="3">0</span><div class="stat-label">Core Skills</div></div>
+          <div class="stat"><span class="stat-num" data-target="6">0</span><div class="stat-label">Awards</div></div>
+        </div>
+      </div>
+      <div class="hero-avatar-wrap fade-up">
+        <div class="avatar-ring">
+          <div class="avatar-inner">&#x1F9D1;&#x200D;&#x1F4BB;</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-wrap compact">
+      <p class="section-tag fade-up">&#x1F4DA; Where I Study</p>
+      <h2 class="section-title fade-up">My <span>Education</span></h2>
+      <div class="section-divider fade-up"></div>
+
+      <div class="edu-grid">
+        <div class="glass-card edu-card fade-up">
+          <div class="edu-icon">&#x1F3EB;</div>
+          <div class="edu-label">Current School</div>
+          <div class="edu-value">Greenview Secondary School</div>
+          <div class="edu-sub">Hong Kong &middot; Est. 2005<br/>A vibrant school focused on holistic education, innovation, and student well-being.</div>
+        </div>
+        <div class="glass-card edu-card fade-up">
+          <div class="edu-icon">&#x1F4CB;</div>
+          <div class="edu-label">Current Form</div>
+          <div class="edu-value">Form 5</div>
+          <div class="edu-sub">Academic Year 2025&ndash;2026<br/>Preparing for HKDSE examinations while actively participating in extracurricular activities.</div>
+        </div>
+        <div class="glass-card edu-card fade-up">
+          <div class="edu-icon">&#x1F3AF;</div>
+          <div class="edu-label">Academic Goal</div>
+          <div class="edu-value">Top University</div>
+          <div class="edu-sub">Aspiring to study Computer Science or Engineering at a top local or overseas university after HKDSE.</div>
+        </div>
+        <div class="glass-card edu-card fade-up">
+          <div class="edu-icon">&#x2B50;</div>
+          <div class="edu-label">House / Class</div>
+          <div class="edu-value">Green House &mdash; 5A</div>
+          <div class="edu-sub">Class Monitor &middot; House Captain<br/>Representing school in sports and academic competitions.</div>
+        </div>
+      </div>
+
+      <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:1.2rem" class="fade-up">
+        Subjects &amp; <span style="color:var(--green)">Performance</span>
+      </h3>
+      <div class="glass-card bar-wrap fade-up">
+        <div class="bar-row"><div class="bar-subject">Chinese</div>
+          <div class="bar-track"><div class="bar-fill" data-pct="80"></div></div>
+          <div class="bar-pct">80%</div></div>
+        <div class="bar-row"><div class="bar-subject">English</div>
+          <div class="bar-track"><div class="bar-fill" data-pct="88"></div></div>
+          <div class="bar-pct">88%</div></div>
+        <div class="bar-row"><div class="bar-subject">Mathematics</div>
+          <div class="bar-track"><div class="bar-fill" data-pct="92"></div></div>
+          <div class="bar-pct">92%</div></div>
+        <div class="bar-row"><div class="bar-subject">ICT</div>
+          <div class="bar-track"><div class="bar-fill" data-pct="95"></div></div>
+          <div class="bar-pct">95%</div></div>
+        <div class="bar-row"><div class="bar-subject">Science</div>
+          <div class="bar-track"><div class="bar-fill" data-pct="84"></div></div>
+          <div class="bar-pct">84%</div></div>
+      </div>
+
+      <h3 style="font-size:1.4rem;font-weight:800;margin-bottom:1.2rem" class="fade-up">
+        Elective <span style="color:var(--green)">Subjects</span>
+      </h3>
+      <div class="course-grid">
+        <div class="glass-card course-chip fade-up">&#x1F4BB; ICT &amp; Programming</div>
+        <div class="glass-card course-chip fade-up">&#x1F52C; Combined Science</div>
+        <div class="glass-card course-chip fade-up">&#x1F4CA; Business Studies</div>
+        <div class="glass-card course-chip fade-up">&#x1F3A8; Visual Arts</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-wrap compact">
+      <p class="section-tag fade-up">&#x1F5D3;&#xFE0F; My Journey</p>
+      <h2 class="section-title fade-up">Competitions &amp; <span>Activities</span></h2>
+      <div class="section-divider fade-up"></div>
+
+      <div class="timeline">
+        <div class="tl-item fade-up">
+          <div class="tl-dot">&#x1F947;</div>
+          <div class="glass-card tl-card">
+            <div class="tl-header">
+              <div class="tl-title">Hong Kong Youth Coding Championship</div>
+              <div class="tl-date">Mar 2025</div>
+            </div>
+            <div class="tl-org">&#x1F3DB;&#xFE0F; HKCS &middot; District Level &middot; Team of 3</div>
+            <div class="tl-desc">Led a team of three to build a web app that helps secondary students
+              manage study schedules using AI suggestions. We advanced to the finals and secured
+              1st place in our division.</div>
+            <div class="tl-badges">
+              <span class="tl-badge gold">&#x1F947; 1st Place</span>
+              <span class="tl-badge">Web Dev</span>
+              <span class="tl-badge">Team Lead</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item fade-up">
+          <div class="tl-dot">&#x1F3C0;</div>
+          <div class="glass-card tl-card">
+            <div class="tl-header">
+              <div class="tl-title">Inter-School Basketball Tournament</div>
+              <div class="tl-date">Nov 2024</div>
+            </div>
+            <div class="tl-org">&#x1F3EB; HKSSF &middot; Kowloon Region &middot; School Team</div>
+            <div class="tl-desc">Represented Greenview Secondary School as point guard in the regional
+              inter-school basketball league. Our team finished as runners-up after an exciting final
+              against 12 competing schools.</div>
+            <div class="tl-badges">
+              <span class="tl-badge silver">&#x1F948; Runner-Up</span>
+              <span class="tl-badge">Basketball</span>
+              <span class="tl-badge">Point Guard</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item fade-up">
+          <div class="tl-dot">&#x1FA80;</div>
+          <div class="glass-card tl-card">
+            <div class="tl-header">
+              <div class="tl-title">HKYYC Yo-Yo Freestyle Contest</div>
+              <div class="tl-date">Jun 2024</div>
+            </div>
+            <div class="tl-org">&#x1F3C6; Hong Kong Yo-Yo Club &middot; Open Category</div>
+            <div class="tl-desc">Performed a 2-minute original freestyle routine combining 1A string
+              tricks with looping elements. Judges praised the creativity and difficulty level
+              of the performance.</div>
+            <div class="tl-badges">
+              <span class="tl-badge gold">&#x1F3C5; Top 5 Finalist</span>
+              <span class="tl-badge">Yo-Yo 1A</span>
+              <span class="tl-badge">Freestyle</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item fade-up">
+          <div class="tl-dot">&#x1F33F;</div>
+          <div class="glass-card tl-card">
+            <div class="tl-header">
+              <div class="tl-title">Green Campus Environmental Drive</div>
+              <div class="tl-date">Sep 2023</div>
+            </div>
+            <div class="tl-org">&#x267B;&#xFE0F; School Green Committee &middot; Organiser</div>
+            <div class="tl-desc">Co-organised a month-long sustainability campaign involving recycling
+              workshops, an eco-art exhibition, and a plastic-free pledge signed by over 300
+              students across 10 forms.</div>
+            <div class="tl-badges">
+              <span class="tl-badge">Organiser</span>
+              <span class="tl-badge">Leadership</span>
+              <span class="tl-badge">300+ Participants</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item fade-up">
+          <div class="tl-dot">&#x1F3A4;</div>
+          <div class="glass-card tl-card">
+            <div class="tl-header">
+              <div class="tl-title">Secondary School Debate League</div>
+              <div class="tl-date">Apr 2023</div>
+            </div>
+            <div class="tl-org">&#x1F4DC; HKSSSDL &middot; English Debate &middot; 2nd Speaker</div>
+            <div class="tl-desc">Competed as second speaker in an English debate on technology ethics.
+              Developed critical thinking and persuasive communication, earning &ldquo;Best Speaker&rdquo;
+              in the preliminary round.</div>
+            <div class="tl-badges">
+              <span class="tl-badge gold">&#x1F31F; Best Speaker</span>
+              <span class="tl-badge">Debate</span>
+              <span class="tl-badge">Public Speaking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="section-wrap compact">
+      <p class="section-tag fade-up">&#x1F3C6; Recognitions</p>
+      <h2 class="section-title fade-up">Awards &amp; <span>Achievements</span></h2>
+      <div class="section-divider fade-up"></div>
+
+      <div class="award-grid">
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x1F947;</span>
+          <div class="award-title">1st Place &mdash; Youth Coding Championship</div>
+          <div class="award-org">HKCS District Finals</div>
+          <span class="award-year">2025</span>
+        </div>
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x1F31F;</span>
+          <div class="award-title">Best Speaker Award</div>
+          <div class="award-org">HKSSSDL English Debate</div>
+          <span class="award-year">2023</span>
+        </div>
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x1F4DA;</span>
+          <div class="award-title">Academic Excellence Award</div>
+          <div class="award-org">Greenview Secondary School</div>
+          <span class="award-year">2024</span>
+        </div>
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x267B;&#xFE0F;</span>
+          <div class="award-title">Outstanding Green Citizen</div>
+          <div class="award-org">Environmental Protection Dept.</div>
+          <span class="award-year">2023</span>
+        </div>
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x1FA80;</span>
+          <div class="award-title">Top 5 Finalist &mdash; Yo-Yo Freestyle</div>
+          <div class="award-org">HK Yo-Yo Club Open</div>
+          <span class="award-year">2024</span>
+        </div>
+        <div class="glass-card award-card fade-up">
+          <span class="award-icon">&#x1F3C0;</span>
+          <div class="award-title">Team Runner-Up &mdash; Basketball</div>
+          <div class="award-org">HKSSF Kowloon Region</div>
+          <span class="award-year">2024</span>
+        </div>
+      </div>
+
+      <h3 style="font-size:1.4rem;font-weight:800;margin:3rem 0 1.2rem" class="fade-up">
+        Certificates &amp; <span style="color:var(--green)">Courses</span>
+      </h3>
+      <div class="cert-list">
+        <div class="glass-card cert-row fade-up">
+          <span class="cert-icon">&#x1F393;</span>
+          <div><div class="cert-name">CS50's Introduction to Computer Science</div>
+            <div class="cert-issuer">Harvard University (edX)</div></div>
+          <div class="cert-date">2025</div>
+        </div>
+        <div class="glass-card cert-row fade-up">
+          <span class="cert-icon">&#x1F916;</span>
+          <div><div class="cert-name">AI For Everyone</div>
+            <div class="cert-issuer">DeepLearning.AI (Coursera)</div></div>
+          <div class="cert-date">2025</div>
+        </div>
+        <div class="glass-card cert-row fade-up">
+          <span class="cert-icon">&#x1F310;</span>
+          <div><div class="cert-name">Responsive Web Design</div>
+            <div class="cert-issuer">freeCodeCamp</div></div>
+          <div class="cert-date">2024</div>
+        </div>
+        <div class="glass-card cert-row fade-up">
+          <span class="cert-icon">&#x1F512;</span>
+          <div><div class="cert-name">Cybersecurity Fundamentals</div>
+            <div class="cert-issuer">IBM (edX)</div></div>
+          <div class="cert-date">2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-wrap compact">
+      <p class="section-tag fade-up">&#x1F4EC; Let's Connect</p>
+      <h2 class="section-title fade-up">Get In <span>Touch</span></h2>
+      <div class="section-divider fade-up"></div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:abc@gmail.com" class="glass-card info-card fade-up">
+            <div class="info-icon">&#x1F4E7;</div>
+            <div><div class="info-label">Email</div>
+              <div class="info-val">abc@gmail.com</div></div>
+          </a>
+          <a href="https://github.com/tempinstructor2-pixel" target="_blank" class="glass-card info-card fade-up">
+            <div class="info-icon"><svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px;color:var(--green)">
+    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+    0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466
+    -.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832
+    .092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688
+    -.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1
+    2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595
+    1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012
+    2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+  </svg></div>
+            <div><div class="info-label">GitHub</div>
+              <div class="info-val">github.com/tempinstructor2-pixel</div></div>
+          </a>
+          <div class="glass-card info-card fade-up" style="cursor:default">
+            <div class="info-icon">&#x1F4CD;</div>
+            <div><div class="info-label">Location</div>
+              <div class="info-val">Hong Kong &#x1F1ED;&#x1F1F0;</div></div>
+          </div>
+          <div class="glass-card info-card fade-up" style="cursor:default">
+            <div class="info-icon">&#x1F3EB;</div>
+            <div><div class="info-label">School</div>
+              <div class="info-val">Greenview Secondary School</div></div>
+          </div>
+        </div>
+
+        <div class="glass-card form-card fade-up">
+          <div class="form-title">Send Me a <span style="color:var(--green)">Message</span></div>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="Jane" required/>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Doe" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="jane@example.com" required/>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="Collaboration / Question / etc."/>
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Message</label>
+              <textarea id="fmessage" placeholder="Hello Ming! I'd love to..." required></textarea>
+            </div>
+            <button type="submit" class="btn-green" style="width:100%;justify-content:center">
+              Send Message &#x1F680;
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast">&#x2705; Message sent! I'll get back to you soon.</div>
+<footer class="footer"><p>&#169; 2026 Ming Chan &middot; Built with &#x1F49A; in Hong Kong</p></footer>
+</body>
+</html>
